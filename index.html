@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@AHMAD_GODMOD1 Game Patcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To The @AHMAD_GODMOD1 Game Patcher</h1>
+        <div class="separator"></div>
+        
+        <form id="loginForm">
+            <label for="secretKey">Please enter the secret key:</label>
+            <input type="password" id="secretKey" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="loginAnimation" class="hidden"></div>
+        <div id="successMessage" class="hidden">
+            <h2>Login Successful!</h2>
+            <div class="separator"></div>
+            <input type="text" id="gameLink" placeholder="Enter game link">
+            <button id="patchGameBtn">Patch Game</button>
+            <div id="progressBar" class="hidden">
+                <span>Processing...</span>
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="https://t.me/adityahackeroffline" target="_blank" class="join-btn">Join Telegram Channel</a>
+            <a href="https://91club.com/#/register?invitationCode=15171484370" target="_blank" class="register-btn">Register</a>
+        </div>
+
+        <div id="resultArea" class="hidden">
+            <h2>Current Period: <span id="currentPeriod"></span></h2>
+            <h3 id="processingResult"></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

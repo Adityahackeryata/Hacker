@@ -1,0 +1,81 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a2e; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #162447;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1, h2, h3 {
+    color: #00d9f9;
+}
+
+.separator {
+    border-bottom: 2px solid #f0f0f0;
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00d9f9;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.join-btn, .register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #00d9f9;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.join-btn:hover, .register-btn:hover, button:hover {
+    background-color: #005f73;
+    color: white;
+}
+
+#progressBar {
+    margin: 20px 0;
+}
+
+.progress {
+    background-color: #00d9f9;
+    height: 20px;
+    width: 0%;
+    transition: width 0.5s ease;
+}
